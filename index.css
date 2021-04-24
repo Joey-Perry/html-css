@@ -3,7 +3,7 @@ html {
 }
 header, footer {
     background-color: #e5e6eb;
-    padding: 20px 0px;
+    padding: 20px 10px;
     margin: 0;
     font-size: 1.5rem;
 }
@@ -25,6 +25,8 @@ li {
 }
 li:hover {
     cursor: pointer;
+    color: blue;
+    font-weight: bolder;
 }
 section {
     border: 1px solid black;
@@ -32,17 +34,22 @@ section {
     padding: 10px;
     font-size:1.5rem;
 }
+h2 {
+    margin-bottom: 5px;
+}
 p {
     font-size: .75em;
-}
-.form {
-    
+    margin-bottom: 5px;
 }
 label, input {
     font-size: .75em;
 }
 button {
     font-size: medium;
+}
+button:hover {
+    background-color: black;
+    color: white;
 }
 span {
     font-weight: bold;
