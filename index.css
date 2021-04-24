@@ -1,0 +1,49 @@
+html {
+    font-size: 15px;
+}
+header, footer {
+    background-color: #e5e6eb;
+    padding: 20px 0px;
+    margin: 0;
+    font-size: 1.5rem;
+}
+body {
+    padding: 0px 50px;
+}
+h1 {
+    font-size: 1.25em;
+    margin-bottom: 10px;
+}
+ul {
+    display: flex;
+    list-style: none;
+    font-size: .75em;
+    justify-content: space-around;
+}
+li {
+    padding: 10px 0px;
+}
+li:hover {
+    cursor: pointer;
+}
+section {
+    border: 1px solid black;
+    margin: 20px 0px;
+    padding: 10px;
+    font-size:1.5rem;
+}
+p {
+    font-size: .75em;
+}
+.form {
+    
+}
+label, input {
+    font-size: .75em;
+}
+button {
+    font-size: medium;
+}
+span {
+    font-weight: bold;
+}
