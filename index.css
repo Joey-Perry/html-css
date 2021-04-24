@@ -39,7 +39,10 @@ h2 {
 }
 p {
     font-size: .75em;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+}
+.form {
+    background-color: rgb(190, 209, 245);
 }
 label, input {
     font-size: .75em;
