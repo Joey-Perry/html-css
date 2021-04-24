@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel='stylesheet' href='reset.css' />
         <link rel='stylesheet' href='./index.css'/>
         <title>This is the Title </title>
         <style>
@@ -12,9 +13,9 @@
             }
             ul {
                 display: flex;
+                list-style: none;
             }
             li {
-                list-style: none;
                 padding: 5px;
                 margin: 5px;
             }
@@ -26,7 +27,7 @@
                 margin: 5px;
                 padding: 10px;
             }
-            .form {
+            label, input {
                 font-size: large;
             }
             button {
@@ -39,7 +40,7 @@
     </head>
     <body>
         <header>
-            <h1>Large Banner Text</h1>
+            <h1>Large Banner Text Which Is Super Interesting</h1>
             <nav>
                 <ul>
                     <li>Home</li>
@@ -51,14 +52,17 @@
         <main>
             <section>
                 <h2>Secondary Title</h2>
-                <p>Typical website-y text</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex in perspiciatis magnam 
+                    autem odit quos ipsum voluptatem eum, impedit commodi sapiente explicabo, 
+                    magni laboriosam labore! Laborum corrupti iure eos.</p>
                 <p>Lorem, ipsum dolor sit amet <span>consectetur</span> adipisicing elit. Eaque nostrum facere 
                     facilis veniam excepturi, 
                     error deserunt unde ipsum, autem adipisci odio quod, maxime quos sunt? 
                     Eligendi expedita consectetur saepe magnam?</p>
             </section>
             <section class="form">
-                <label for="input">Login Name: </label>
+                <h2>Login Information</h2>
+                <label for="input">User Name: </label>
                 <input type="text" name="input" />
                 
                 <label for="input">Password: </label>
