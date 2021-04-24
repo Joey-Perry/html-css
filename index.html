@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel='stylesheet' href='./index.css'/>
+        <title>This is the Title </title>
+        <style>
+            header, footer {
+                background-color: #e5e6eb;
+                padding: 5px;
+                margin: 0;
+            }
+            ul {
+                display: flex;
+            }
+            li {
+                list-style: none;
+                padding: 5px;
+                margin: 5px;
+            }
+            li:hover {
+                cursor: pointer;
+            }
+            section {
+                border: 1px solid black;
+                margin: 5px;
+                padding: 10px;
+            }
+            .form {
+                font-size: large;
+            }
+            button {
+                font-size: medium;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Large Banner Text</h1>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Secondary Title</h2>
+                <p>Typical website-y text</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque nostrum facere 
+                    facilis veniam excepturi, 
+                    error deserunt unde ipsum, autem adipisci odio quod, maxime quos sunt? 
+                    Eligendi expedita consectetur saepe magnam?</p>
+            </section>
+            <section class="form">
+                <label for="input">Login Name: </label>
+                <input type="text" name="input" />
+                
+                <label for="input">Password: </label>
+                <input type="password" name="password" />
+
+                <button>Submit</button>
+            </section>
+        </main>
+        <footer>
+            <p>123 Example Street, Houston, TX 77581</p>
+        </footer>
+    </body>
+</html>
